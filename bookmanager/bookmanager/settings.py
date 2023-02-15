@@ -25,7 +25,7 @@ SECRET_KEY = 'oy@3ys3lm2xehjaogb)n1j6m)i+0boxblm#ymj1-oo_(*udwxx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.249.131','127.0.0.1']
 
 
 # Application definition
@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'bookmanager.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-
+#sqllite3关系型数据库、、、
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -106,7 +106,8 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-Hans'
+    #'en-us'
 
 TIME_ZONE = 'UTC'
 
